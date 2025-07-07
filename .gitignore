@@ -1,0 +1,24 @@
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pasta de configuração do VSCode
+# É comum querer compartilhar as configurações de build (tasks.json),
+# então vamos ignorar a pasta toda, mas abrir exceções para arquivos úteis.
+.vscode/*
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/c_cpp_properties.json
+
+# Arquivos compilados (executáveis)
+estrutura-de-dados
+
+# Para garantir que executáveis do Windows (.exe) também sejam ignorados
+*.exe
+
+# Arquivos objeto e outros arquivos temporários da compilação
+*.o
+*.obj
+*.out
+*.suo
+*.user

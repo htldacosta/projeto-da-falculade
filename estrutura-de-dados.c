@@ -77,11 +77,11 @@ void liberar_rota(RotaEntrega* rota) {
 int main() {
     RotaEntrega* rota = criar_rota();
 
-    inserir_inicio(rota, "Loja D");
-    inserir_inicio(rota, "Loja B");
-    inserir_inicio(rota, "Loja A");
+    inserir_inicio(rota, "Rota da Loja D");
+    inserir_inicio(rota, "Rota da Loja B");
+    inserir_inicio(rota, "Rota da Loja A");
 
-    inserir_na_posicao(rota, "Loja C", 2);
+    inserir_na_posicao(rota, "Rota da Loja C", 2);
 
     printf(" Rota final:\n");
     imprimir_rota(rota);
